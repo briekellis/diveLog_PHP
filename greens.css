@@ -1,0 +1,48 @@
+﻿ h1 {text-align:left; font-family:Cambria; color :#b1d2e9;}
+ h2 {text-align:left; font-family:Cambria; color:#b1d2e9;}
+ h3, h4  {text-align:left; font-family:Cambria;color:#b1d2e9; font-size:14pt;}
+ h5, h6 {text-align:left; font-family:Cambria;color:black; font-size:12pt;}
+ p { text-align:left; font-family:Cambria; font-size:12pt; color :black;}
+ ol {text-align:left; font-family:Cambria; font-size:12pt; color:black; }
+ li {text-align:left; font-family:Cambria; font-size:12pt; color:black; }	
+ ul {text-align:left; font-family:Cambria; font-size:12pt; color:black;}
+ div{text-align:left; font-family:Cambria; font-size:12pt; color:black; }
+a:link {color:#b1d2e9; text-decoration: underline; }
+a:active {color:#030033; text-decoration: underline; }
+a:visited {color:#e4e7f0 ; text-decoration: underline; }
+a:hover {color: white; background-color: #b1d2e9 ; text-decoration: none; }
+table {text-align:left; font-family:Cambria; color:black; border:5px solid #b1d2e9 ; border-right: 2px solid #b1d2e9 ; border-top: 2px solid #b1d2e9 ; border-bottom: 2px solid #b1d2e9; }
+th {font-size:14pt; font-weight:bold; font-family:Cambria; background-color:#b1d2e9 ; color:white;}
+td {height:40px; font-family:Cambria; font-size:12pt; color:black; border-right: 2px solid #b1d2e9; border-bottom: 2px solid #b1d2e9 ;}
+hr { height:4px; color:#b1d2e9 ; background-color:#b1d2e9; }
+blockquote {font-family:Cambria, sans-serif;}
+body {background-color: white; background-image:url('images/scuba.jpg');background-repeat:no-repeat;margin-left:250px; width: 1920px 1080px;}
+form,fieldset{width:90%;}
+img {border:none;}
+
+@media only screen and (max-width:768px){
+    /* [class*="col-"]{
+        width: 70%;
+    } */
+    h1 {text-align:left; font-family:Cambria; color :#b1d2e9;}
+    h2 {text-align:left; font-family:Cambria; color:#b1d2e9;}
+    h3, h4  {text-align:left; font-family:Cambria;color:#b1d2e9; font-size:14pt;}
+    h5, h6 {text-align:left; font-family:Cambria;color:black; font-size:12pt;}
+    p { text-align:left; font-family:Cambria; font-size:12pt; color :black;}
+    ol {text-align:left; font-family:Cambria; font-size:12pt; color:black; }
+    li {text-align:left; font-family:Cambria; font-size:12pt; color:black; }	
+    ul {text-align:left; font-family:Cambria; font-size:12pt; color:black;}
+    div{text-align:left; font-family:Cambria; font-size:12pt; color:black; }
+   a:link {color:#b1d2e9; text-decoration: underline; }
+   a:active {color:#030033; text-decoration: underline; }
+   a:visited {color:#e4e7f0 ; text-decoration: underline; }
+   a:hover {color: white; background-color: #b1d2e9 ; text-decoration: none; }
+   table {text-align:left; font-family:Cambria; color:black; border:5px solid #b1d2e9 ; border-right: 2px solid #b1d2e9 ; border-top: 2px solid #b1d2e9 ; border-bottom: 2px solid #b1d2e9; }
+   th {font-size:14pt; font-weight:bold; font-family:Cambria; background-color:#b1d2e9 ; color:white;}
+   td {height:40px; font-family:Cambria; font-size:12pt; color:black; border-right: 2px solid #b1d2e9; border-bottom: 2px solid #b1d2e9 ;}
+   hr { height:4px; color:#b1d2e9 ; background-color:#b1d2e9; }
+   blockquote {font-family:Cambria, sans-serif;}
+   body {background-color: white; background-image:url('images/scuba.jpg');background-repeat:no-repeat;margin-left:250px; width: 1920px 1080px;}
+   form,fieldset{width:50%;}
+   img {border:none;}
+}
